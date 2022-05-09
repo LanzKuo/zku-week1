@@ -1,3 +1,4 @@
+
 pragma circom 2.0.0;
 
 include "../../node_modules/circomlib/circuits/comparators.circom";
@@ -13,3 +14,4 @@ template LessThan10() {
 
     out <== lt.out;
 }
+component main = LessThan10();
